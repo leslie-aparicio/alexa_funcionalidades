@@ -1,0 +1,85 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "cómo estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pregunta",
+              "type": "LISTA_PREGUNTAS"
+            }
+          ],
+          "name": "PreguntaIntent",
+          "samples": [
+            "quiero saber {pregunta}",
+            "dime {pregunta}",
+            "responde {pregunta}",
+            "puedes decirme {pregunta}",
+            "cuéntame {pregunta}",
+            "necesito saber {pregunta}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "quién creó esta skill"
+              }
+            },
+            {
+              "name": {
+                "value": "qué carrera estudia"
+              }
+            },
+            {
+              "name": {
+                "value": "cuál es su color favorito"
+              }
+            },
+            {
+              "name": {
+                "value": "cuál es su grupo favorito"
+              }
+            },
+            {
+              "name": {
+                "value": "cuál es su cantante favorito"
+              }
+            }
+          ],
+          "name": "LISTA_PREGUNTAS"
+        }
+      ],
+      "invocationName": "saluda skill"
+    }
+  }
+}
