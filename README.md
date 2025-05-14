@@ -26,7 +26,7 @@ Fecha entrega: 14 de mayo del 2025
 
 <div style="text-align: center">
     <img src="/img/image1.png" alt="Imagen 1"/><br>
-<div style="text-align: center">
+<div style="text-align: center"><br><br>
     <img src="/img/image2.png" alt="Imagen 1"/><br>
 ><br>
 </div>
